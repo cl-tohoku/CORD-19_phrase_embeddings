@@ -30,7 +30,7 @@ unsupervised segmentation model and a vocabulary size of 200,000:
 
 ```python
 >>> from cord19_emb import CORD19Emb
->>> cord19_emb = CORD19Emb('2020-03-20.phrase_emb.cased.unigram.vs200000.d100')
+>>> cord19_emb = CORD19Emb('2020-03-20.phrase_emb.uncased.unigram.vs200000.d100')
 ```
 
 Available models are:

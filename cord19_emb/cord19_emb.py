@@ -1,9 +1,7 @@
-import re
 from pathlib import Path
-from typing import Sequence, Union, Set
+from typing import Sequence, Union
 import numpy as np
 
-from pathlib import Path
 from typing import IO
 
 
@@ -234,7 +232,7 @@ class CORD19Emb():
         the padding embedding can be looked up with "cord19_emb['<pad>']", or
         directly accessed with "cord19_emb.vectors[-1]".
     """
-    url_tpl = "https://github.com/cl-tohoku/CORD-19_phrase_embeddings/blob/master/files/{file_name}?raw=true"
+    url_tpl = "https://github.com/cl-tohoku/CORD-19_phrase_embeddings_files/blob/master/{file_name}?raw=true"
     emb_tpl = "CORD-19.{model_name}.w2v.bin"
     model_tpl = "CORD-19.{model_name}.model"
     archive_suffix = ".tar.gz"

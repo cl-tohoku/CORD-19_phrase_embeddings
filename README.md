@@ -25,7 +25,7 @@ pip install git+git://github.com/cl-tohoku/CORD-19_phrase_embeddings
 ```
 
 Load 100-dim case-sensitive phrase embeddings, trained on the
-2020-03-20 version of CORD-10  with the SentencePiece 'unigram'
+2020-03-20 version of CORD-19 with the SentencePiece 'unigram'
 unsupervised segmentation model and a vocabulary size of 200,000:
 
 ```python

@@ -43,8 +43,7 @@ The phrase models should be useful for tasks such as document classification or 
 
 Segment text into subwords, words, and phrases:
 ```python
->>> text = 'Faced with the current large-scale public health emergency, collecting, sorting, and analyzing biomedical information related to the \"coronavirus\" should be done as quickly a
-...: s possible to gain a global perspective, which is a basic requirement for strengthening epidemic control capacity.'
+>>> text = 'Faced with the current large-scale public health emergency, collecting, sorting, and analyzing biomedical information related to the \"coronavirus\" should be done as quickly as possible to gain a global perspective, which is a basic requirement for strengthening epidemic control capacity.'
 >>> cord19_emb.encode(text)
 ['▁faced',
  '▁with▁the▁current',
